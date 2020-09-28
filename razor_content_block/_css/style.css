@@ -1,0 +1,35 @@
+﻿body {
+    background-color: aquamarine;
+    margin: 10px;
+    font-family: Algerian;
+    font-size: 30px;
+}
+
+div{
+    border: solid 5px black;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 500px;
+    padding: 50px;
+    background-color: white;
+    margin-top: 30px;
+}
+
+
+
+nav .menu{
+    background-color: white;
+    float: right;
+    position: relative;
+    float: right;
+}
+
+.menu ul li{
+    display: inline;
+    list-style: none;
+}
+
+.menu ul li a{ padding: 10px; }
+
+.menu ul li a :hover{ color: white; }

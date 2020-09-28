@@ -1,0 +1,31 @@
+﻿@{
+    Layout = null;
+    string titulo = "Pagina principal";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="~/_css/style.css" />
+    <title>@titulo</title>
+</head>
+<body>
+    <nav class="menu">
+        @{ 
+            @RenderPage("_menu.cshtml")
+        }
+    </nav>
+    <div>
+        @{ 
+            @RenderPage("_header.cshtml");
+        }
+    </div>
+    <div>
+        @{ 
+            @RenderPage("_header02.cshtml");
+        }
+    </div>
+</body>
+</html>
